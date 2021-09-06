@@ -41,10 +41,16 @@ function calculateChange(amountToBeReturned) {
 
 function hideMessage(){
     message.style.display='none';
+    message.style.color='white';
+    message.style.textAlign='center';
+    message.style.fontSize = 'larger';
 }
 
 function showMessage(msg){
     message.style.display='block';
     message.innerText= msg;
+    message.style.color='white';
+    message.style.textAlign='center';
+    message.style.fontSize = 'larger';
 }
 

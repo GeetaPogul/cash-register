@@ -1,22 +1,32 @@
 
 .container{
-    width: 39vw;
+ 
     height: 450px;
-    border: 1px solid black;
-    background-color: #0B453E;
+    /* border: 1px solid black; */
+    background-color: rgba(2, 48, 43, 0.527);
     padding-left: 1rem;
     border-radius: 8px;
-    margin: auto;
+    /* margin: auto; */
+    font-family: Calibri;
+    /* background-color: rgb(56, 51, 51); */
     
+}
+
+body{
+    background-color: rgb(2, 49, 44); 
 }
 .description{
     /* margin-left: 2rem; */
     text-align: center;
     font-weight: bold;
+    color: white;
+    font-size: larger;
 }
 h2{
     text-align: center;
     font-weight: bold;
+    color: white;
+    
 }
 
 #check-button{
@@ -29,6 +39,7 @@ label{
   padding-left: 8rem;
   font-size:18px;
   color: #7AF3E3;
+  margin-left: 30vw;
   
 }
  input{
@@ -37,10 +48,12 @@ label{
     border: none; 
     margin-left: 15px;
     border-radius: 2px;
+     margin-left: 30vw;
     
 }  
 #check-buttton{
-    margin-left: 9rem;
+    /* margin-left: 9rem; */
+    margin-left: 42vw;
     width: 75px;
     height: 30px;
     /* background-color: #7AF3E3; */
@@ -57,13 +70,21 @@ label{
     text-align: center;
     height: 25px;
     width:11%;
+   
 
 
+}
+table{
+    margin-left: 29vw;
 }
 #notes-bottom-row{
     background-color: #7AF3E3;
     text-align: center;
+    
 }
 #no-of-notes{
     background-color: #7AF3E3;
+}
+showMessage{
+    margin-left: 40vw;
 }
