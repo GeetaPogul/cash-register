@@ -6,13 +6,15 @@
     padding-left: 1rem;
     border-radius: 8px;
     
-    font-family: Calibri;
+    font-family: Merriweather;
     
     
 }
 
 body{
     background-color: rgb(2, 49, 44); 
+    margin-top: 5rem;
+    line-height: 25px;
 }
 .description{
    
@@ -20,42 +22,55 @@ body{
     font-weight: bold;
     color: white;
     font-size: larger;
+    border: 1px solid white;
+    padding: 1rem;
+    margin-left: 18rem;
+    margin-right: 18rem;
+    font-family: merriweather;
 }
-h2{
+h1{
     text-align: center;
     font-weight: bold;
     color: white;
+    font-size: 3rem;
     
 }
 
 #check-button{
     height: 30px;
     width: 2rem;
+    /* border: 1px solid; */
+    
   
 
 }
 label{
-  padding-left: 8rem;
+  padding-left: 12rem;
   font-size:18px;
   color: #7AF3E3;
   margin-left: 30vw;
   
 }
- input{
-    width: 350px;
-    height: 28px;
+input{
+    width: 400px;
+    height: 32px;
     border: none; 
-    margin-left: 15px;
+    
     border-radius: 2px;
      margin-left: 30vw;
+     /* background-color: rgb(107, 58, 58); */
+     margin-left: 26rem;
     
 }  
 #check-buttton{
   
     margin-left: 43vw;
-    width: 75px;
-    height: 30px;
+    width: 100px;
+    height: 32px;
     border-radius: 5px;
+    border: 2px solid #7AF3E3;
+    /* color: #7AF3E3; */
+
      
 }
 #return-change{
@@ -66,23 +81,35 @@ label{
     background-color: white;
     
     text-align: center;
-    height: 25px;
-    width:11%;
+    height: 27px;
+    width:12%;
+    font-size: 20px;
    
 
 
 }
+h2{
+    text-align: center;
+    color:white;
+}
+
+caption{
+    color: white;
+}
 table{
-    margin-left: 30vw;
+    margin-left: 22.5rem;
 }
 #notes-bottom-row{
     background-color: #7AF3E3;
     text-align: center;
+    height:2rem ;
+    font-size: 20px;
     
 }
 #no-of-notes{
     background-color: #7AF3E3;
+    height:2rem ;
 }
-showMessage{
+.showMessage{
     margin-left: 40vw;
 }
