@@ -58,9 +58,9 @@ input{
     border: none; 
     
     border-radius: 2px;
-     margin-left: 30vw;
+     /* margin-left: 33vw; */
      /* background-color: rgb(107, 58, 58); */
-     margin-left: 26rem;
+     margin-left: 28rem;
     
 }  
 #check-buttton{
@@ -98,7 +98,7 @@ caption{
     color: white;
 }
 table{
-    margin-left: 22.5rem;
+    margin-left: 23.8rem;
 }
 #notes-bottom-row{
     background-color: #7AF3E3;
@@ -114,3 +114,27 @@ table{
 .showMessage{
     margin-left: 40vw;
 }
+
+
+
+.link{
+    text-decoration: none;
+    padding: 0rem 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+} 
+  
+.link-secondary{
+    
+    
+  
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+    color: #7AF3E3;
+    margin-left: 38rem;
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    border: 1px solid #7AF3E3;
+}
+
+
